@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">843</arg>: Output port &lt;<arg fmt="%s" index="3">q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_19</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">523</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">523</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">523</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">523</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">532</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">532</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">532</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">532</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">550</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">550</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">550</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">550</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">559</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">559</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">559</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">559</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">577</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">577</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">577</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">577</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">629</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">629</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">629</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">629</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">638</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">638</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">638</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">638</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">647</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">647</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">647</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">647</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">656</arg>: Output port &lt;<arg fmt="%s" index="3">bit0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">656</arg>: Output port &lt;<arg fmt="%s" index="3">bit1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">656</arg>: Output port &lt;<arg fmt="%s" index="3">bit2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/share-vm-digital/q4OnlySch/top.vhf</arg>&quot; line <arg fmt="%s" index="2">656</arg>: Output port &lt;<arg fmt="%s" index="3">bit3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,5 @@
+[Inputs]
+clk
+[Outputs]
+=count[4:0]=
+[BiDir]

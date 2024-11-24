@@ -1,0 +1,7 @@
+vhdl work "register8bitsPIPOfall.vhd"
+vhdl work "mux4_1.vhd"
+vhdl work "counter0_26.vhd"
+vhdl work "AZ_emitter.vhd"
+vhdl work "../q5VHDL/counter0_20M.vhd"
+vhdl work "../q5VHDL/counter0_20k.vhd"
+vhdl work "top.vhf"

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work modifiedMUX4_1.vhd -prj q5VHDL -o modifiedSeg.spl -module modifiedSeg -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w modifiedSeg.spl /home/ise/share-vm-digital/q5VHDL/modifiedSeg.sym 

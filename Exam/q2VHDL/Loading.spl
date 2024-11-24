@@ -1,0 +1,8 @@
+[Inputs]
+=state[2:0]=
+[Outputs]
+=segment0[6:0]=
+=segment1[6:0]=
+=common0[3:0]=
+=common1[3:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+NET "clk_osc" LOC = P123;
+NET "l" LOC = P82;

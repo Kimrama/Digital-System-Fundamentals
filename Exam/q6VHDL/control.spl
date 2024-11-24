@@ -1,0 +1,9 @@
+[Inputs]
+w
+d
+c
+b
+f
+[Outputs]
+led
+[BiDir]

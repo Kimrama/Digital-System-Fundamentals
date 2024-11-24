@@ -1,0 +1,4 @@
+vhdl work "modifiedMUX4_1.vhd"
+vhdl work "hexBCDto7Segment.vhd"
+vhdl work "counter0_20k.vhd"
+vhdl work "top.vhf"

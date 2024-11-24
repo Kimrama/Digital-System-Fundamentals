@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -refsym BCDto7Seg /home/ise/share-vm-digital/Lab6Final/BCDto7Seg.sch /home/ise/share-vm-digital/q4OnlySch/BCDto7Seg.sym 

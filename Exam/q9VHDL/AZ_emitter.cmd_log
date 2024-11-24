@@ -1,0 +1,2 @@
+vhdtdtfi -lib work AZ_emitter.vhd -prj q9VHDL -o AZ_emitter.spl -module AZ_emitter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 AZ_emitter.spl /home/ise/share-vm-digital/q9VHDL/AZ_emitter.sym 

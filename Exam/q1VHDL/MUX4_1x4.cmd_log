@@ -1,0 +1,6 @@
+vhdtdtfi -lib work MUX4_1x4.vhd -prj q1VHDL -o MUX4_1x4.spl -module MUX4_1x4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w MUX4_1x4.spl /home/ise/share-vm-digital/q1VHDL/MUX4_1x4.sym 
+vhdtdtfi -lib work MUX4_1x4.vhd -prj q1VHDL -o MUX4_1x4.spl -module MUX4_1x4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w MUX4_1x4.spl /home/ise/share-vm-digital/q1VHDL/MUX4_1x4.sym 
+vhdtdtfi -lib work MUX4_1x4.vhd -prj q1VHDL -o MUX4_1x4.spl -module MUX4_1x4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w MUX4_1x4.spl /home/ise/share-vm-digital/q1VHDL/MUX4_1x4.sym 

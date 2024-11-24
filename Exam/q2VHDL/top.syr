@@ -1,0 +1,588 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd" into library work
+Parsing entity <MultiplexerLoading>.
+Parsing architecture <Behavioral> of entity <multiplexerloading>.
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/Loading.vhd" into library work
+Parsing entity <Loading>.
+Parsing architecture <Behavioral> of entity <loading>.
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/counter5M.vhd" into library work
+Parsing entity <counter5M>.
+Parsing architecture <Behavioral> of entity <counter5m>.
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/counter0_5.vhd" into library work
+Parsing entity <counter0_5>.
+Parsing architecture <Behavioral> of entity <counter0_5>.
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/counter0_20k.vhd" into library work
+Parsing entity <counter0_20k>.
+Parsing architecture <Behavioral> of entity <counter0_20k>.
+Parsing VHDL file "/home/ise/share-vm-digital/q2vhdl/top.vhf" into library work
+Parsing entity <FTC_HXILINX_top>.
+Parsing architecture <Behavioral> of entity <ftc_hxilinx_top>.
+Parsing entity <top>.
+Parsing architecture <BEHAVIORAL> of entity <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <top> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <counter5M> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Loading> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <counter0_5> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <counter0_20k> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <FTC_HXILINX_top> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MultiplexerLoading> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd" Line 24: bcd0 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd" Line 25: common0 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd" Line 27: bcd1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd" Line 28: common1 should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/top.vhf".
+    Set property "HU_SET = XLXI_6_0" for instance <XLXI_6>.
+    Summary:
+	no macro.
+Unit <top> synthesized.
+
+Synthesizing Unit <counter5M>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/counter5M.vhd".
+    Found 1-bit register for signal <terminate_count>.
+    Found 23-bit register for signal <count>.
+    Found 23-bit adder for signal <count[22]_GND_6_o_add_1_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+Unit <counter5M> synthesized.
+
+Synthesizing Unit <Loading>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/Loading.vhd".
+    Found 8x22-bit Read Only RAM for signal <_n0017>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Loading> synthesized.
+
+Synthesizing Unit <counter0_5>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/counter0_5.vhd".
+    Found 3-bit register for signal <count>.
+    Found 3-bit adder for signal <count[2]_GND_8_o_add_1_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <counter0_5> synthesized.
+
+Synthesizing Unit <counter0_20k>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/counter0_20k.vhd".
+    Found 15-bit register for signal <count>.
+    Found 1-bit register for signal <terminate_count>.
+    Found 15-bit adder for signal <count[14]_GND_9_o_add_1_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+Unit <counter0_20k> synthesized.
+
+Synthesizing Unit <FTC_HXILINX_top>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/top.vhf".
+        INIT = '0'
+    Found 1-bit register for signal <q_tmp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FTC_HXILINX_top> synthesized.
+
+Synthesizing Unit <MultiplexerLoading>.
+    Related source file is "/home/ise/share-vm-digital/q2vhdl/MultiplexerLoading.vhd".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <MultiplexerLoading> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x22-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 3
+ 15-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 6
+ 1-bit register                                        : 3
+ 15-bit register                                       : 1
+ 23-bit register                                       : 1
+ 3-bit register                                        : 1
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Loading>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0017> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 22-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <state>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Loading> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter0_20k>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <counter0_20k> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter0_5>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <counter0_5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter5M>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <counter5M> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x22-bit single-port distributed Read Only RAM        : 1
+# Counters                                             : 3
+ 15-bit up counter                                     : 1
+ 23-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top> ...
+
+Optimizing unit <FTC_HXILINX_top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 181
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 36
+#      LUT2                        : 3
+#      LUT3                        : 2
+#      LUT4                        : 9
+#      LUT5                        : 26
+#      LUT6                        : 23
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 38
+# FlipFlops/Latches                : 44
+#      FD                          : 38
+#      FD_1                        : 2
+#      FDCE                        : 1
+#      FDR                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              44  out of  11440     0%  
+ Number of Slice LUTs:                  105  out of   5720     1%  
+    Number used as Logic:               105  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    106
+   Number with an unused Flip Flop:      62  out of    106    58%  
+   Number with an unused LUT:             1  out of    106     0%  
+   Number of fully used LUT-FF pairs:    43  out of    106    40%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    102    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 40    |
+XLXI_1/terminate_count             | NONE(XLXI_3/count_0)   | 3     |
+XLXI_5/terminate_count             | NONE(XLXI_6/q_tmp)     | 1     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.207ns (Maximum Frequency: 311.808MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.956ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.207ns (frequency: 311.808MHz)
+  Total number of paths / destination ports: 1188 / 40
+-------------------------------------------------------------------------
+Delay:               3.207ns (Levels of Logic = 21)
+  Source:            XLXI_1/count_0 (FF)
+  Destination:       XLXI_1/count_18 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: XLXI_1/count_0 to XLXI_1/count_18
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.650  XLXI_1/count_0 (XLXI_1/count_0)
+     INV:I->O              1   0.206   0.000  XLXI_1/Mcount_count_lut<0>_INV_0 (XLXI_1/Mcount_count_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  XLXI_1/Mcount_count_cy<0> (XLXI_1/Mcount_count_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<1> (XLXI_1/Mcount_count_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<2> (XLXI_1/Mcount_count_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<3> (XLXI_1/Mcount_count_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<4> (XLXI_1/Mcount_count_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<5> (XLXI_1/Mcount_count_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<6> (XLXI_1/Mcount_count_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<7> (XLXI_1/Mcount_count_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<8> (XLXI_1/Mcount_count_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<9> (XLXI_1/Mcount_count_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<10> (XLXI_1/Mcount_count_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<11> (XLXI_1/Mcount_count_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<12> (XLXI_1/Mcount_count_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<13> (XLXI_1/Mcount_count_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<14> (XLXI_1/Mcount_count_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<15> (XLXI_1/Mcount_count_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<16> (XLXI_1/Mcount_count_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_1/Mcount_count_cy<17> (XLXI_1/Mcount_count_cy<17>)
+     XORCY:CI->O           1   0.180   0.924  XLXI_1/Mcount_count_xor<18> (Result<18>)
+     LUT5:I0->O            1   0.203   0.000  XLXI_1/count_18_rstpot (XLXI_1/count_18_rstpot)
+     FD:D                      0.102          XLXI_1/count_18
+    ----------------------------------------
+    Total                      3.207ns (1.633ns logic, 1.574ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/terminate_count'
+  Clock period: 2.844ns (frequency: 351.673MHz)
+  Total number of paths / destination ports: 15 / 6
+-------------------------------------------------------------------------
+Delay:               2.844ns (Levels of Logic = 1)
+  Source:            XLXI_3/count_1 (FF)
+  Destination:       XLXI_3/count_0 (FF)
+  Source Clock:      XLXI_1/terminate_count falling
+  Destination Clock: XLXI_1/terminate_count falling
+
+  Data Path: XLXI_3/count_1 to XLXI_3/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.447   1.111  XLXI_3/count_1 (XLXI_3/count_1)
+     LUT3:I0->O            3   0.205   0.650  XLXI_2/Mram__n0017411 (XLXI_2/Mram__n00174)
+     FDR:R                     0.430          XLXI_3/count_0
+    ----------------------------------------
+    Total                      2.844ns (1.082ns logic, 1.762ns route)
+                                       (38.1% logic, 61.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_5/terminate_count'
+  Clock period: 2.216ns (frequency: 451.233MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.216ns (Levels of Logic = 1)
+  Source:            XLXI_6/q_tmp (FF)
+  Destination:       XLXI_6/q_tmp (FF)
+  Source Clock:      XLXI_5/terminate_count rising
+  Destination Clock: XLXI_5/terminate_count rising
+
+  Data Path: XLXI_6/q_tmp to XLXI_6/q_tmp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.447   0.882  q_tmp (q_tmp)
+     INV:I->O              1   0.206   0.579  q_tmp_INV_10_o1_INV_0 (q_tmp_INV_10_o)
+     FDCE:D                    0.102          q_tmp
+    ----------------------------------------
+    Total                      2.216ns (0.755ns logic, 1.461ns route)
+                                       (34.1% logic, 65.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/terminate_count'
+  Total number of paths / destination ports: 26 / 10
+-------------------------------------------------------------------------
+Offset:              4.956ns (Levels of Logic = 2)
+  Source:            XLXI_3/count_2 (FF)
+  Destination:       common<3> (PAD)
+  Source Clock:      XLXI_1/terminate_count falling
+
+  Data Path: XLXI_3/count_2 to common<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.447   1.156  XLXI_3/count_2 (XLXI_3/count_2)
+     LUT4:I0->O            1   0.203   0.579  common<3>1 (common_3_OBUF)
+     OBUF:I->O                 2.571          common_3_OBUF (common<3>)
+    ----------------------------------------
+    Total                      4.956ns (3.221ns logic, 1.735ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_5/terminate_count'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.930ns (Levels of Logic = 3)
+  Source:            XLXI_6/q_tmp (FF)
+  Destination:       Segment<5> (PAD)
+  Source Clock:      XLXI_5/terminate_count rising
+
+  Data Path: XLXI_6/q_tmp to Segment<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.447   1.130  q_tmp (q_tmp)
+     end scope: 'XLXI_6:Q'
+     LUT4:I0->O            1   0.203   0.579  Segment<4>1 (Segment_4_OBUF)
+     OBUF:I->O                 2.571          Segment_4_OBUF (Segment<4>)
+    ----------------------------------------
+    Total                      4.930ns (3.221ns logic, 1.709ns route)
+                                       (65.3% logic, 34.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock XLXI_1/terminate_count
+----------------------+---------+---------+---------+---------+
+                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------+---------+---------+---------+---------+
+XLXI_1/terminate_count|         |         |    2.844|         |
+----------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_5/terminate_count
+----------------------+---------+---------+---------+---------+
+                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------+---------+---------+---------+---------+
+XLXI_5/terminate_count|    2.216|         |         |         |
+----------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    3.207|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> 
+
+
+Total memory usage is 499664 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

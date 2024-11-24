@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TF_fall_drc.vhf -w /home/ise/share-vm-digital/q4OnlySch/TF_fall.sch 
+sch2sym -intstyle ise -family spartan6 -refsym TF_fall /home/ise/share-vm-digital/q4OnlySch/TF_fall.sch /home/ise/share-vm-digital/q4OnlySch/TF_fall.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl TF_fall_drc.vhf -w /home/ise/share-vm-digital/q4OnlySch/TF_fall.sch 

@@ -1,0 +1,17 @@
+NET "sw(7)" LOC = P55;
+NET "sw(6)" LOC = P56;
+NET "sw(5)" LOC = P57;
+NET "sw(4)" LOC = P58;
+NET "sw(3)" LOC = P59;
+NET "sw(2)" LOC = P61;
+NET "sw(1)" LOC = P62;
+NET "sw(0)" LOC = P66;
+
+NET "l(7)" LOC = P67;
+NET "l(6)" LOC = P74;
+NET "l(5)" LOC = P75;
+NET "l(4)" LOC = P78;
+NET "l(3)" LOC = P79;
+NET "l(2)" LOC = P80;
+NET "l(1)" LOC = P81;
+NET "l(0)" LOC = P82;

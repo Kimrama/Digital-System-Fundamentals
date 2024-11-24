@@ -1,0 +1,10 @@
+[Inputs]
+sel0
+sel1
+=r0[6:0]=
+=r1[6:0]=
+=r2[6:0]=
+=r3[6:0]=
+[Outputs]
+=seg[6:0]=
+[BiDir]

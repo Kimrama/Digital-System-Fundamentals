@@ -1,0 +1,6 @@
+vhdl work "MultiplexerLoading.vhd"
+vhdl work "Loading.vhd"
+vhdl work "counter5M.vhd"
+vhdl work "counter0_5.vhd"
+vhdl work "counter0_20k.vhd"
+vhdl work "top.vhf"

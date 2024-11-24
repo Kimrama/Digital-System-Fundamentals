@@ -1,0 +1,3 @@
+MODULE top
+	SUBMODULE findNextPrime
+		INSTANCE XLXI_1

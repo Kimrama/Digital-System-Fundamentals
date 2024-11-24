@@ -1,0 +1,7 @@
+vhdl work "TF_fall.vhf"
+vhdl work "counter0_9.vhf"
+vhdl work "counter0_20M.vhf"
+vhdl work "counter0_20k.vhf"
+vhdl work "MUX2_1.vhf"
+vhdl work "BCDto7Seg.vhf"
+vhdl work "top.vhf"

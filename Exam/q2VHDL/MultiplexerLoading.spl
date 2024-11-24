@@ -1,0 +1,10 @@
+[Inputs]
+sel
+=BCD0[6:0]=
+=BCD1[6:0]=
+=common0[3:0]=
+=common1[3:0]=
+[Outputs]
+=BCD[6:0]=
+=common[3:0]=
+[BiDir]

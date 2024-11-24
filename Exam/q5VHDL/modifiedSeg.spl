@@ -1,0 +1,7 @@
+[Inputs]
+sel0
+sel1
+=segIn[6:0]=
+[Outputs]
+=seg[6:0]=
+[BiDir]

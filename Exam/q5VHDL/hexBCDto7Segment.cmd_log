@@ -1,0 +1,2 @@
+vhdtdtfi -lib work hexBCDto7Segment.vhd -prj q5VHDL -o hexBCDto7Segment.spl -module hexBCDto7Segment -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w hexBCDto7Segment.spl /home/ise/share-vm-digital/q5VHDL/hexBCDto7Segment.sym 

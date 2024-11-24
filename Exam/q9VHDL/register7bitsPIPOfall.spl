@@ -1,0 +1,6 @@
+[Inputs]
+clk
+=bitIn[6:0]=
+[Outputs]
+=bitOUT[6:0]=
+[BiDir]

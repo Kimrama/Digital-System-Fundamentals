@@ -1,0 +1,3 @@
+MODULE top
+	SUBMODULE control
+		INSTANCE XLXI_1

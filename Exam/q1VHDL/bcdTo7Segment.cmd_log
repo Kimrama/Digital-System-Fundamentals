@@ -1,0 +1,2 @@
+vhdtdtfi -lib work bcdTo7Segment.vhd -prj q1VHDL -o bcdTo7Segment.spl -module bcdTo7Segment -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w bcdTo7Segment.spl /home/ise/share-vm-digital/q1VHDL/bcdTo7Segment.sym 

@@ -1,0 +1,5 @@
+[Inputs]
+=current[7:0]=
+[Outputs]
+=nextPrime[7:0]=
+[BiDir]

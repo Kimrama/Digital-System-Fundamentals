@@ -1,0 +1,6 @@
+vhdtdtfi -lib work mux66011454.vhd -prj q1VHDL -o mux66011454.spl -module mux66011454 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 mux66011454.spl /home/ise/share-vm-digital/q1VHDL/mux66011454.sym 
+vhdtdtfi -lib work mux66011454.vhd -prj q1VHDL -o mux66011454.spl -module mux66011454 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 mux66011454.spl /home/ise/share-vm-digital/q1VHDL/mux66011454.sym 
+vhdtdtfi -lib work mux66011454.vhd -prj q1VHDL -o mux66011454.spl -module mux66011454 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w mux66011454.spl /home/ise/share-vm-digital/q1VHDL/mux66011454.sym 

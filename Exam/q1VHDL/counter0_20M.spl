@@ -1,0 +1,5 @@
+[Inputs]
+clk
+[Outputs]
+terminate_count
+[BiDir]

@@ -1,0 +1,6 @@
+vhdl work "mux66011454.vhd"
+vhdl work "MUX4_1x4.vhd"
+vhdl work "counter0_20M.vhd"
+vhdl work "counter0_20k.vhd"
+vhdl work "bcdTo7Segment.vhd"
+vhdl work "top.vhf"

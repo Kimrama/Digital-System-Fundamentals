@@ -1,0 +1,8 @@
+[Inputs]
+sel
+[Outputs]
+=bcdU0[3:0]=
+=bcdU1[3:0]=
+=bcdU2[3:0]=
+=bcdU3[3:0]=
+[BiDir]

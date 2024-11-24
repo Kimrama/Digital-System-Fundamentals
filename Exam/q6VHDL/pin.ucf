@@ -1,0 +1,7 @@
+NET "f" LOC = p66;
+NET "b" LOC = p62;
+NET "c" LOC = p61;
+NET "d" LOC = p59;
+NET "w" LOC = p58;
+
+NET "l" LOC = p82;

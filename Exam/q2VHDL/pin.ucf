@@ -1,0 +1,14 @@
+NET "clk" LOC = P123;
+
+NET "Segment(0)" LOC= P41;
+NET "Segment(1)" LOC= P40;
+NET "Segment(2)" LOC= P35;
+NET "Segment(3)" LOC= P34;
+NET "Segment(4)" LOC= P32;
+NET "Segment(5)" LOC= P29;
+NET "Segment(6)" LOC= P27;
+
+NET "common(0)" LOC = P44;
+NET "common(1)" LOC = P43;
+NET "common(2)" LOC = P33;
+NET "common(3)" LOC = P30;

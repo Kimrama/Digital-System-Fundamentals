@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl MUX2_1_drc.vhf -w /home/ise/share-vm-digital/Lab6Final/MUX2_1.sch 
+sch2sym -intstyle ise -family spartan6 -refsym MUX2_1 /home/ise/share-vm-digital/Lab6Final/MUX2_1.sch /home/ise/share-vm-digital/q4OnlySch/MUX2_1.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work findNextPrime.vhd -prj q7VHDL -o findNextPrime.spl -module findNextPrime -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 findNextPrime.spl /home/ise/share-vm-digital/q7VHDL/findNextPrime.sym 
